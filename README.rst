@@ -1,22 +1,20 @@
 pu.sh
 =====
 
-pu.sh is a simple POSIX shell script which deploys a nice versioned
-backup solution based on rsync's hardlinking capability, which creates
-many snapshots in local or remote hosts (with SSH) without data
-redundancy.
-
-
-**Why not rsnapshot?**
-
-rsnapshot is infinitely better than pu.sh, but works
-differently. Whereas rsnapshot download, pu.sh upload.
-
-rsnapshot pulls, pu.sh pushes. Remember that! :)
-
+**pu.sh** is a simple POSIX shell script which deploys a nice
+versioned backup solution based on rsync's hardlinking capability,
+which creates many snapshots in local or remote hosts (with SSH)
+without data redundancy.
 
 **Project website:**
     https://bitbucket.org/semente/pu.sh/
+
+**Why not rsnapshot?**
+
+*rsnapshot* is infinitely better than pu.sh, but works
+differently. Whereas rsnapshot download, pu.sh upload.
+
+rsnapshot pulls, pu.sh pushes. Remember that! :)
 
 
 Install instructions
@@ -28,7 +26,8 @@ It's simple, just copy the file ``pu.sh`` to some directory in your
 Running
 -------
 
-To use *pu.sh* you must have these softwares installed in your computer:
+To run ``pu.sh`` you must have these softwares installed in your
+computer:
 
 * rsync;
 * OpenSSH client (ssh), only if you need push backups on a remote host.
