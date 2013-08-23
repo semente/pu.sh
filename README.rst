@@ -56,7 +56,7 @@ For more instructions, run ``pu.sh -h``.
 Simple deploy
 -------------
 
-Put the script below to be ran by cron::
+Put the script below to be ran by *cron*::
 
    #!/bin/sh
    SOURCES="/etc /srv /opt /home /root /var/lib /var/www /usr/local /var/log /var/mail /var/spool"
