@@ -16,7 +16,7 @@
 # along with this program; see the file COPYING.  If not, see
 # <http://www.gnu.org/licenses/>.
 #
-# See <http://pu-sh.googlecode.com/> for updates, bug reports, and answers.
+# See <http://bitbucket.org/semente/pu.sh> for updates, bug reports, and answers.
 #
 
 VERSION="0.1-pre"
