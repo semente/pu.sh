@@ -30,7 +30,7 @@ To run ``pu.sh`` you must have these softwares installed in your
 computer:
 
 * rsync;
-* OpenSSH client (ssh), only if you need push backups on a remote host.
+* OpenSSH client (ssh), if you need push backups to a remote host.
 
 **Synopsys**::
 
@@ -39,15 +39,15 @@ computer:
 Usage examples
 --------------
 
-Push some dirs into /var/backups::
+Backup some dirs into /var/backups::
 
    $ pu.sh /home /usr/local/bin /var/backups
 
-Push / with a exclude list into /backups in example.net::
+Backup / with a exclude list into /backups on example.net::
 
    # pu.sh -e /etc/pu-sh/exclude.list / root@example.net:/backups/
 
-Push /var/mail to remote host and writes a log in /var/log/pu-sh.log::
+Backup /var/mail to remote host and writes a log in /var/log/pu-sh.log::
 
    # pu.sh -l /var/log/pu-sh.log /var/mail root@192.168.0.1:/var/cache/pu-sh
 
@@ -75,7 +75,7 @@ Put the script below to be ran by *cron*::
    /var/tmp
    END_EXCLUDE_LIST
 
-In destination directory, you will have something like this:
+On destination directory, you gonna get something like this::
 
    2008-02-22_21:17:02/    2008-02-23_01:17:02/    2008-02-23_05:17:02/
    2008-02-22_22:17:02/    2008-02-23_02:17:02/    2008-02-23_06:17:02/
