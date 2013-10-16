@@ -74,7 +74,8 @@ Put the script below to be ran by *cron*::
    /tmp
    /var/tmp
    END_EXCLUDE_LIST
-   In destination directory, you will have something like this:
+
+In destination directory, you will have something like this:
 
    2008-02-22_21:17:02/    2008-02-23_01:17:02/    2008-02-23_05:17:02/
    2008-02-22_22:17:02/    2008-02-23_02:17:02/    2008-02-23_06:17:02/
