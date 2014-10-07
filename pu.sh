@@ -1,7 +1,7 @@
 #!/bin/sh
 #
-# Copyright (C) 2008, 2009 Guilherme Gondim <semente@taurinus.org>
-#
+# Copyright (C) 2008, 2009 Guilherme Gondim
+
 # pu.sh is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
