@@ -84,7 +84,7 @@ On destination directory, you gonna get something like this::
 License information
 -------------------
 
-Copyright (C) 2008, 2009 Guilherme Gondim <semente@taurinus.org>
+Copyright (C) 2008, 2009 Guilherme Gondim
 
 pu.sh is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
