@@ -79,7 +79,7 @@ Fail()
 Version()
 {
     echo "pu.sh  version $VERSION"
-    echo "Copyright (C) 2008, 2009 by Guilherme Gondim <semente@taurinus.org>"
+    echo "Copyright (C) 2008, 2009 by Guilherme Gondim"
     echo
     echo "pu.sh comes with ABSOLUTELY NO WARRANTY.  This is free software, and"
     echo "you are welcome to redistribute it under certain conditions.  See the"
@@ -252,8 +252,8 @@ UpdateSymlinkLast()
 
 PushSnapshot()
 {
-    ## Push a snapshot to `[[USER@]HOST:]DEST'. If we have a previous snapshot
-    ## in DEST directory, we uses the rsync's hardlinking capability for create
+    ## Push a snapshot to `[[USER@]HOST:]DEST'. If there is a previous snapshot
+    ## in DEST directory, it uses the rsync's hardlinking capability for create
     ## a new snapshot without data redundancy.
 
     if [ $HAVE_PREVIOUS -eq 1 ]; then
