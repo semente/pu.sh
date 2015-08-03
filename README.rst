@@ -1,15 +1,13 @@
 pu.sh
 =====
 
-*(pu.sh is no longer supported!)*
-
 **pu.sh** is a simple POSIX shell script which deploys a nice
 versioned backup solution based on rsync's hardlinking capability,
 which creates many snapshots in local or remote hosts (with SSH)
 without data redundancy.
 
 **Project website:**
-    https://bitbucket.org/semente/pu.sh/
+    https://github.com/semente/pu.sh
 
 **Why not rsnapshot?**
 
